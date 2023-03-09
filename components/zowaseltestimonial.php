@@ -29,7 +29,7 @@ $testimonials = array(
             "fullname" => "Mike Adejoh",
             "state" => "- Kogi"
 
-            )
+        ),
              array(
                 "testimony" =>  "
                 Finding Zowasel was one of those rare “hallelujah” moments you experience in the
