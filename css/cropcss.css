@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    background-color: #F5F5F5 !important;
+}
+
+h3{
+    color: #4A4754;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+ .filter-by{
+    width: 100% !important;
+    margin: auto;
+} 
+
+.accordion-body {
+   border: 2px dashed #d3d2d3 !important;
+   background-color: #FFFFFF;
+}
+
+
+
+
+
+.accordion-button{
+    color: #4A4754;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.accordion-button:not(.collapsed){
+    color: #4A4754;
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.accordion-button:focus{
+    border: 1px solid #05B050;
+}
+
+.accordion-button::after{
+    color: #FFFFFF !important;
+    background-color: #05B050;
+    border-radius: 50%;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-color: #05B050;
+    border-radius: 50%;
+}
+
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#4A4754 ;
+
+}
+/* SORT BY  */
+
+.sort-by{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    border: 1px dashed #c7c8ca;
+
+    
+}
+
+tr td{
+    font-family: 'Poppins', sans-serif !important ; 
+    font-size: 16px;
+}
+.sort{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#4A4754 ;
+}
+.sortbutton-seprate{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+     
+}
+.dropdown-toggle{
+   border: 1px solid #05B050;
+}
+
+
+.pl-f{
+     padding-left: 2% !important;
+
+}
+.pl{
+    padding-left: 9% !important;
+}
+.pl-td {
+    padding-left: 19% !important;
+}
+/* .background-row{
+    background-color: #FFFFFF;
+    margin-bottom: 60px !important;
+} */
+
+
+.form-check-input:checked{
+    background-color: #05B050;
+    border-color: #05B050;
+}
+
+.form-check label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    color: #4A4754;
+    text-align: left !important;
+}
+.check-child{
+    background-color: #EDEDEE;
+    color: #05B050;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    width: 70px;
+    border-radius: 4px;
+    padding-top: 5px;
+}
+
+.seller-type{
+    margin-top: 92px;
+    margin-left: 7px;
+}
+
+.seller-type label{
+    text-align: left;
+}
+/* .check-child{
+    color: #05B050;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+} */
+
+
+
+
+
+.bi{
+    width: 8px;
+    height: 13px;
+    color: #05B050;
+}
+
+.bi:hover{
+    width: 8px;
+    height: 13px;
+    color: #FFFFFF;
+    background-color: #05B050;
+}
+
+/* PAGES  */
+
+.Page{
+    margin-top: 70px;
+}
+
+.page-link{
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4A4754;
+
+}
+
+.page-link:hover{
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #05B050;
+}
+.page-link:active{
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4A4754;
+
+}
+
+
+/* THE PAGE ENDS HERE */
+.related-anchor{
+    background-color: #EDEDF0;
+    width: 150px;
+    height: 32px;
+    text-align: center;
+    border-radius: 10px;
+}
+.related a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #4A4B57;
+    
+}
+
+.dropdown {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #4A4B57;
+}
+
+.dropdown-toggle:focus-visible{
+    border: 1px solid #05B050;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #4A4B57;
+}
+
+.dropdown-toggle:focus{
+    border: 1px solid #05B050;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: #4A4B57;
+}
+
+.apply-filter{
+    border: 1px solid #05B050;
+  
+    width: 100%;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+.apply-filter:hover{
+    background-color: #05B050;
+    color: #FFFFFF;
+}
+
+.apply-filter:focus{
+    background-color: #05B050;
+    color: #FFFFFF;
+}
+
+
+.right{
+    border-radius: 5px 5px  5px 5px;
+   
+}
+.left{
+    border-radius: 5px 5px 5px 5px;
+   
+}
+button{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 850px) {
+    .table-content{
+        table-layout: auto;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .filter-by{
+         display: block !important; 
+        width: 100% !important;
+    }
+
+    .filter-by-child{
+        max-width: 850px;
+        width: 100%;
+    }
+
+    .seller-type{
+        margin-top: 10px;
+    }
+
+}
+
+
+
+/* End Crop Market */
