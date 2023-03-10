@@ -30,6 +30,11 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.css">
         <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.js"></script>
 
+        <!-- Automatic Card slider -->
+        <script src="js/lib/jquery-3.5.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
         <!-- Amination Scroll-->
         <link rel="stylesheet" href="aos-by-red.css">
         <!-- <link rel="stylesheet" href="aos-by-red.css"> -->
@@ -53,9 +58,6 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/stylesheet.css">
         <link rel="stylesheet" href="css/responsive.css">
-        <!-- <link rel="stylesheet" href="/css/cropcss.css">
-    <link rel="stylesheet" href="/css/buttonstyle.css"> -->
-
 
         <!-- MODERNIZR LIBRARY -->
         <script src="js/modernizr-custom.js"></script>
@@ -86,9 +88,19 @@
     <body>
 
 
+<!-- TEST COMPONENT STARTS HERE  -->
+
+ 
+
+<?php# require("components/zowaseltestimonial.php");   ?>
+<?php# require('components/report.php'); ?>
+<?php# require('components/safety.php'); ?>
+<?php  require('components/traceabilityoverview.php'); ?>
+<?php  require('components/traceabilityprojects.php'); ?>
+<?php  require('components/traceabilityservices.php'); ?>
 
 
-        <!-- TEST COMPONENT STARTS HERE  -->
+ 
 
 
 
@@ -99,23 +111,20 @@
 
 
 
-        <!-- TEST COMPONENT ENDS HERE  -->
 
-
-
-        <!-- JAVASCRIPTS -->
-        <script src='js/lib/jquery-3.5.1.min.js'></script>
-        <script src='js/lib/plugins.js'></script>
-        <script src='js/lib/bootstrap.min.js'></script>
-        <!-- <script src='js/lib/flickity.pkgd.min.js'></script> -->
-        <!-- <script src='js/lib/nav-fixed-top.js'></script> -->
-        <script src='js/lib/aos.min.js'></script>
-        <script src='js/lib/owl.carousel.min.js'></script>
-        <script src='js/lib/world-map.min.js'></script>
-        <script src='js/main.js'></script>
-        <script src='js/slider.js'></script>
-        <!-- JAVASCRIPTS END -->
-        <script>
+ <!-- JAVASCRIPTS -->
+ <script src='js/lib/jquery-3.5.1.min.js'></script>
+    <script src='js/lib/plugins.js'></script>
+    <script src='js/lib/bootstrap.min.js'></script>
+    <!-- <script src='js/lib/flickity.pkgd.min.js'></script> -->
+    <!-- <script src='js/lib/nav-fixed-top.js'></script> -->
+    <script src='js/lib/aos.min.js'></script>
+    <script src='js/lib/owl.carousel.min.js'></script>
+    <script src='js/lib/world-map.min.js'></script>
+    <script src='js/main.js'></script>
+    <script src='js/slider.js'></script>
+    <!-- JAVASCRIPTS END -->
+    <script>
         // get all zowasel benefit buttons and associated information
         let benefitBtns = document.querySelectorAll(".zowa-benefits");
         let benefitDetails = document.querySelectorAll(".zowa-benefits-details");

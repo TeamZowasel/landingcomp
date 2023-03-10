@@ -2,3 +2,5 @@
 favicon.ico
 # vscode settings
 .editorconfig
+/images
+/fonts
