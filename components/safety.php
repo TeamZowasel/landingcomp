@@ -24,11 +24,7 @@ $safety = array(
         "btnText" => "Signup Now",
         "btnUrl" => "#blog-single.html",
         "image" => "images/newpic/happyfarmer3.jpg",
-        "imageAlt" => function ($imageitem) {
-            $pathParts = explode('/gallery/', $imageitem['image']);
-            $fileName = end($pathParts);
-            return 'Image of ' . $fileName;
-        }
+        
 
     ),
   
