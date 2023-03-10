@@ -93,18 +93,18 @@
  
 
 <?php# require("components/zowaseltestimonial.php");   ?>
-<?php# require('components/report.php'); ?>
-<?php# require('components/safety.php'); ?>
-<?php  require('components/traceabilityoverview.php'); ?>
-<?php  require('components/traceabilityprojects.php'); ?>
-<?php  require('components/traceabilityservices.php'); ?>
+<?php# require('components/reportbody.php'); ?>
+<?php require('components/safety.php'); ?>
+<?php#  require('components/traceabilityoverview.php'); ?>
+<?php#  require('components/traceabilityprojects.php'); ?>
+<?php#  require('components/traceabilityservices.php'); ?>
 
 
  
 
 
 
-        <?php require("./components/sustainabilityfooter.php"); ?>
+<?php# require("./components/sustainabilityfooter.php"); ?>
 
 
 
